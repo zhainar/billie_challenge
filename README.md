@@ -43,3 +43,27 @@ repository. Please commit your code to it.
 - Please provide a statement about what the next steps would’ve been. Include it as a text file in
 the root directory called “next_steps”
 
+
+### Secret technologies
+
+**POSITIVE**
+- application completely decoupled from framework-libraries
+- PSR are followed and respected completely
+- clean and understandable application
+- implementation of design patterns
+- used some very cool libraries and technologies that we could use in Billie (like SWOOLE for example), also laminas
+- understands clearly how DDD works
+- nice test coverage and the usage of in memory repository is a big plus, this means that doesn't overuse or abuse mocks
+- application nicely architected and very easy
+
+**NEGATIVE**
+- No domain model. Anaemic (models) entities in infra layer. One controller for everything and only 3 simple operations covered. SOLID violations everywhere…
+- Anemic domain model
+- Mixing App/Domain with Infra/Framework concerns
+- Not built in an API way.
+- Endpoints are not named in restful way.
+- Many SOLID violations, like SID...
+- Basically no logic in the entire code, except in a one place and that was implemented with mistakes.
+- No domain logic
+- No layers in the application
+- No tests at
