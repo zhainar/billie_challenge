@@ -9,6 +9,7 @@
 
 # Next steps
 
+0. Composer install
 1. Up the background service, add it to supervisor or another visor.
 2. Done.
 
